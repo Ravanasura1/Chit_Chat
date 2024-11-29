@@ -8,6 +8,7 @@ const PREVIEW_MESSAGES = [
 ];
 
 const  SettingPage = () => {
+  console.log("SettingPage rendered");
   const { theme, setTheme } = useThemeStore();
 
   return (
